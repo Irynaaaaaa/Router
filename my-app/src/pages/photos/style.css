@@ -1,0 +1,40 @@
+.photo> img{
+    width: 150px;
+    height: 150px;
+    opacity: 0.6;
+}
+.photo>img:hover{
+    opacity: 1.0;
+}
+
+.photo{
+    padding: 3px;
+
+}
+
+.row{
+
+    display: flex;
+    flex-direction: row;
+    background: rgb(182, 150, 150);
+   
+}
+.main_container{
+    background: rgb(182, 150, 150);
+}
+.wallpers{
+    display: flex;
+}
+.wallpers>h2{
+    padding: 10px;
+    color: rgb(34, 23, 34);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+}
+
+
+
